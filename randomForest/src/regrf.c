@@ -52,12 +52,12 @@ void regRF(double *x, double *y, int *useweights, double *weights, int *xdim, in
 
   *************************************************************************/
 
-    double errts = 0.0, averrb, meanY, meanYts, varY, varYts, r, xrand,
+    double errts = 0.0, averrb, meanY, meanYts, varY, varYts, r,
 	errb = 0.0, resid=0.0, ooberr, ooberrperm, delta, *resOOB;
 
     double *yb, *xtmp, *xb, *ytr, *ytree, *tgini;
 
-    int k, m, mr, n, nOOB, j, jout, idx, ntest, last, ktmp, nPerm,
+    int k, m, mr, n, nOOB, j, jout, idx, ntest, nPerm,
         nsample, mdim, keepF, keepInbag;
     int *oobpair, varImp, localImp, *varUsed;
 

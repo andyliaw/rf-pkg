@@ -95,7 +95,7 @@ void classRF(double *x, int *dimx, int *cl, int *ncl, int *cat, int *maxcat,
   *nodexts, *nodestart, *ta, *ncase, *jerr, *varUsed,
   *jtr, *classFreq, *idmove, *jvr,
   *at, *a, *b, *mind, *nind, *jts, *oobpair, *sampledIndices;
-  int **strata_idx, *strata_size, last, ktmp, nEmpty, ntry;
+  int **strata_idx, *strata_size, nEmpty, ntry;
   double **stratified_weight_subsets;
   double av=0.0, delta=0.0;
 
